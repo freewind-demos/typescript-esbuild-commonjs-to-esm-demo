@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"build": "esbuild ./src/hello.ts --format=esm --outfile=./dist/hello.bundle.js"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.2",
+		"esbuild": "^0.20.2"
+	}
+}
